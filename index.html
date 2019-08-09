@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head> 
+    </title>bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <style>
+    #first {
+         color:cornflowerblue;
+         background-color: rgb(110, 20, 255);
+         text-align: center;
+         font-size:100px
+    }
+img{
+     width: 200px;
+     height: 200px;
+     background-image:200px;
+
+}
+.two{
+     color:lightskyblue
+}
+.myInsta{
+     width: 50px;
+     height: 50px;
+}
+.inlineClass{
+     display: inline-block;
+     margin-right: 200px;
+}
+#myImage{
+     vertical-align: top;
+}
+#myImages{
+     vertical-align:top;
+}
+    </style>
+     <body>
+          <h1 id = "first">MY first heading</h1>
+          <h1 id = "hello">Hello world!</h1> 
+                  <p class = "two">my first paragragh</p>
+                  <p class= "two">my first para</p>
+                  <p>my first graph</p>
+                 <a href = "https://tumo.org">this is a link</a>
+                 <br><br>
+                 <img src= "namida.jpg">
+                 <img src="index.jpg">
+                 <img src="namida.jpeg">
+                 <img src="images.jpeg">
+                 <img src="giphy.gif">
+                 <img src="source.gif">
+                 <img src="ies.gif">
+                 <img src="dv.gif">
+                 <img src="16EGCP.gif">
+                 <img src="rrvc.gif">
+                 <img src="frr.jpeg">
+                 <img src="de.jpeg">
+                   
+              
+                <br><br>
+
+                 <input id ="input" type = "text" placeholder="Choose a color">
+                 <button id = "changeBtn">Change Color</button><br><br>
+                    <div class="inlineClass">
+                 <img class = "myInsta" src = "cor.jpeg"><a href = "https://www.instagram.com/courteneycoxofficial/?hl=en">courteneycox  <img class ="myInsta" src = "instgram.jpeg"></a> <br>
+                 <img class = "myInsta" src = "lisa1.jpeg"><a href= "https://www.instagram.com/lisakudrow/?hl=en">lisakudrow<img class = "myInsta" src = "instgram.jpeg"></a><br>
+                 <img class = "myInsta" src = "matthe.jpeg"><a href= "https://www.instagram.com/mattylangfordperry/?hl=en">matthewperry<img class = "myInsta" src = "instgram.jpeg"></a><br>
+                 <img class = "myInsta" src = "david1.jpeg"><a href = "https://www.instagram.com/_schwim_/?hl=en">davidschwimmer<img class = "myInsta" src = "instgram.jpeg"></a><br>
+                 <img class = "myInsta" src = "matt1.jpeg"><a href = "https://www.instagram.com/mleblanc/?hl=en">mattleblanc<img class = "myInsta" src = "instgram.jpeg"></a><br>
+                    </div>
+                 <img id = "myImage" src= "jennifer2.jpeg">
+                 <img id = "myImages" src = "jenn.jpeg">
+                             
+<script>
+             document.getElementById('changeBtn').addEventListener('click', function(){
+                document.getElementById('hello').style.color =document.getElementById('input').value;     
+             })
+      
+             </script>
+     </body>
+</html>
